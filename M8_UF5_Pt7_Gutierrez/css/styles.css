@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-image: url(Shenlong.png);
+  border: 5px solid red;
+  
+
+}
+
+section {
+  display: flex;
+}
+
+/* Style the header */
+header {
+  background-color: orange;
+  padding: 5px;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  background-image: url(bolas.jpeg);
+}
+
+
+nav {
+ text-align: center;
+  width: 100%;
+  
+  background: rgb(18, 18, 185);
+  padding: 5px;
+  /*background-image: url(bolas.jpeg);*/
+  background-color: #150f00;
+ 
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 2px;
+  background-color: #150f00;;
+
+}
+
+header img {
+  width: 30%;
+  margin: 0;
+  float: CENTER;
+  padding: 0;
+
+}
+img {
+  width: 20%;
+  margin: 0;
+  padding: 5px;
+}
+
+
+
+
+article {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  display: table;
+  background-color: #150f00;
+  /*height: 300px;
+   only for demonstration, should be removed */
+  font-size: 25px;
+  color: whitesmoke;
+
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #150f00;
+  padding: 10px;
+  text-align: center;
+  color: wheat;
+}
+
+
+
+@font-face {
+  font-family: Manga;
+  src: url(Saiyan-Sans.ttf);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Manga;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: red;
+  color: yellow;
+  
+}
+div.gallery
+{
+  margin: 2px;
+  border: 1px solid red;
+  float: left;
+  width: 49%;
+}
+
+div.gallery:hover {
+  border: 2px solid blue;
+}
+
+div.gallery img {
+  width: 100%;
+  
+}
+
+div.desc {
+  padding: 5px;
+  text-align: left;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  /* Style the footer */
+    nav,
+    article {
+    background-image: url(bolas.jpeg);
+    padding: 10px;
+    
+     
+  
+    }
+  }

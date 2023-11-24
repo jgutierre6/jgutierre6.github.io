@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-image: url(GT.png);
+      margin: 100;
+      width: 100%;
+}
+
+img {
+    width: 20%;
+    margin: 0;
+    padding: 5px;
+}
+
+#img_principal {
+    width: 100%;
+}
+
