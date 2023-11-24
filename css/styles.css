@@ -134,7 +134,7 @@ div.gallery
 }
 
 div.gallery:hover {
-  border: 2px solid blue;
+  border: 2px solid #150f00;
 }
 
 div.gallery img {
